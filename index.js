@@ -2,7 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const MongoClient = require("mongodb").MongoClient;
 
-const { MongoClient } = require("mongodb")
  
 async function main() {
   const client = new MongoClient("mongodb://localhost:27017")
